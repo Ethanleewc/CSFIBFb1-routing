@@ -7,13 +7,15 @@ import { HomeComponent } from './components/home.component';
 import { ElephantComponent } from './components/elephant.component';
 import { TrexComponent } from './components/trex.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CustomerComponent } from './components/customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ElephantComponent,
-    TrexComponent
+    TrexComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
